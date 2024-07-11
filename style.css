@@ -1,0 +1,268 @@
+body{
+  
+}
+.navbar  {
+    background-image: url('https://i.pinimg.com/564x/15/92/84/159284093e884a6bf18bb961ebca15fd.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+   
+}
+
+div.container-fluid{
+    gap:3%;
+}
+
+.photo1{
+    position: absolute;
+    right:90px;
+    animation: mymove 5s infinite;
+    animation-delay: s;
+}
+/*hey*/
+@keyframes mymove {
+    from {left: -100px;}
+    to {left: 100%;}
+  }
+
+.welcoming-phrase{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.card-header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+
+
+}
+.grid-container{
+    margin:19px;
+    display:grid;
+    grid-template-columns: auto auto ;
+    background-color: #FDFFD2;
+  padding: 10px;
+  grid-template-columns: repeat(3,1fr);
+}
+.grid-item{
+    border: 1px solid rgba(255, 252, 252, 0.8);
+    font-size: 40px;
+    padding: 20px;
+    font-size: 30px;
+    background-size:cover ;
+
+
+}
+.btn-group .button {
+    background-color: #7cbff6; /* Green */
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+  }
+
+
+ 
+.chamchoum-image{
+   
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+
+}
+.grid-item{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+   
+
+}
+.form{
+   background-image: url('https://i.pinimg.com/564x/91/c2/d0/91c2d03e73311297f72cb5944802c036.jpg');
+   width: 60%;
+   position: absolute;
+   left:20%;
+  
+   text-align: 20px;
+
+   
+
+}
+.form-label{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+   margin: 20px;
+}
+.form-control{
+  width: 10px;
+}
+
+.flex-container{
+    position: absolute;
+    top:250%;
+    background-color: #FDFFD2;
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+
+    
+}
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+   
+}
+footer {
+    background-color:  #FDFFD2;
+    color: #a99a9a;
+    padding: 2rem 0;
+    position: absolute;
+    top:1750px;
+    right:2%;
+    left:2%;
+    width: 100%;
+   
+}
+footer a {
+    color: #312f2f;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.social-icons i {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #6c6767;
+}
+.social-icons i:hover {
+    color: #007bff;
+}
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-links ul li {
+    margin: 0.5rem 0;
+}
+.footer-links ul li a {
+    color: #797474;
+}
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+.burger-images{
+    width:100%;
+
+}
+
+
+
+    
+/*@media screen and (max-width:600px) {
+    
+    .navbar {
+      
+        width:1000%;
+    }
+    .welcoming-phrase{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        white-space: nowrap;
+        font-size: 35px;
+        text-align: center;
+        margin: 40px;
+        
+    }
+
+    .card{
+        width: 100%;
+         margin-top: 20px; 
+        margin-left: 0; 
+        margin-right: 0;
+        padding: 10px;
+
+
+    }
+    .collapse navbar-collapse{
+        margin-top: 20px;
+    }
+   
+       
+
+  
+    
+}*/
+.cards{
+    display: flex;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    gap: 3%;
+    width:100%;
+    margin-top: 10px;
+}
+.cham{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+@media (max-width: 600px) {
+    .navbar {
+      
+        width:100%;
+    }
+    .navbar-brand img {
+        width: 50px; 
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px; 
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    .navbar-toggler {
+        margin-bottom: 10px; 
+    }
+    .form-control {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+   /* .card{
+        width: 100%;
+         margin-top: 20px; 
+        margin-left: 0; 
+        margin-right: 0;
+        padding: 10px;
+
+
+    }*/
+   /* .card {
+        width: 100% !important;
+   
+        margin-left: 0 !important; 
+        
+    }*/
+    .burger1{
+        margin:10%;
+    }
+    .burger2{
+        margin:10% !important;
+        position: absolute !important;
+        top:6% !important;
+    }
+    
+    
+
+    
+}
